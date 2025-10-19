@@ -87,6 +87,12 @@ class DescendingHackerThread extends HackerThread {
     }
 }
 
+/**
+ * Not here start() is not written because we don't want to override the start method of Thread class.
+ * Default is called of parent class Thread.
+ */
+
+
 class PoliceThread extends Thread {
     @Override
     public void run() {
